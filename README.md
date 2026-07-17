@@ -23,9 +23,11 @@ YANDEX_API - Личный токен нужен только для доступ
 Запуск
  * docker run -it --env-file scenerybot/.env scenerybot
 
-Запуск без Docker (сначала надо перейти в директорию проекта через cd)
+Запуск без Docker
  * pip install -r requirements.txt
  * python scenerybot.py
+
+Для всех команд надо перейти в директорию проекта через cd.
 
 # Ограничения
  * OpenRouter ограничил доступ для пользователей из России и Беларуси - запросы с российских IP-адресов блокируются на уровне сервиса (403 Access denied by security policy). Это не баг проекта - для работы из России потребуется VPN.
